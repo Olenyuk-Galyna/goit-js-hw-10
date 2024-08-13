@@ -10,14 +10,14 @@
     <section>
       <a href="./index.html">Go to home</a>
       <form class="form">
-        <label>
+        <label class="box-delay">
           Delay (ms)
           <input type="number" name="delay" required />
         </label>
       
         <fieldset>
           <legend>State</legend>
-          <label>
+          <label class="box-state">
             <input type="radio" name="state" value="fulfilled" required />
             Fulfilled
           </label>
@@ -27,7 +27,7 @@
           </label>
         </fieldset>
       
-        <button type="submit">Create notification</button>
+        <button type="submit" class="create">Create notification</button>
       </form>
     </section>
     <script type="module" src="./js/2-snackbar.js"></script>
